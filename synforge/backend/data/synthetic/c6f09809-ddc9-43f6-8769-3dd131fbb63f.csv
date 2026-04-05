@@ -1,0 +1,401 @@
+Student_ID,Age,Gender,Education_Level,City,AI_Tool_Used,Daily_Usage_Hours,Purpose,Impact_on_Grades,Satisfaction_Level
+62,25,Female,College,East Joshua,Gemini,3.0,Research,No Change,Low
+69,25,Female,School,Carlosfurt,Copilot,5.3,Coding,Improved,Low
+59,25,Male,College,North Joditown,Copilot,0.7,Learning,Improved,High
+-15,23,Female,College,East Patrick,Gemini,4.8,Learning,No Change,High
+-37,25,Male,University,Marcustown,Copilot,1.3,Writing,Improved,Low
+-22,21,Male,School,North Thomas,Copilot,0.6,Coding,Improved,Medium
+44,24,Female,School,West Rachelmouth,Gemini,1.1,Research,Slight Decline,Medium
+-66,25,Male,School,Kennethtown,Gemini,5.4,Coding,Slight Decline,Low
+63,24,Female,University,Beckerbury,Gemini,0.6,Writing,Slight Decline,Low
+40,24,Male,University,Kanemouth,Gemini,3.0,Research,Slight Decline,Medium
+-20,18,Female,School,Medinastad,ChatGPT,1.4,Research,No Change,Medium
+23,23,Female,University,Grantfort,Grammarly,2.9,Learning,Improved,Medium
+-5,23,Female,College,Griffinhaven,ChatGPT,1.7,Writing,Improved,Medium
+-41,16,Male,University,Davidmouth,ChatGPT,3.5,Research,Slight Decline,Medium
+-5,25,Female,College,Colleenbury,Copilot,6.0,Learning,No Change,High
+-8,25,Female,School,New Elizabethside,Copilot,2.1,Writing,No Change,High
+230,23,Male,School,Josephport,Copilot,2.7,Writing,Improved,Low
+-55,17,Male,University,Port Ian,ChatGPT,1.8,Research,Improved,High
+16,15,Male,University,Lake Lorraine,Copilot,1.2,Writing,No Change,Low
+-26,22,Female,School,Colemouth,ChatGPT,3.2,Research,Slight Decline,High
+-7,25,Male,College,Susanstad,Copilot,0.8,Research,Slight Decline,Medium
+39,24,Male,College,Sweeneyland,Gemini,2.6,Learning,Slight Decline,Medium
+62,25,Male,College,Williamsmouth,Gemini,4.2,Coding,Improved,Medium
+57,23,Female,School,Port Aliciahaven,Grammarly,2.1,Research,No Change,High
+-40,23,Female,School,Joseborough,Copilot,2.2,Homework,Improved,Low
+-4,25,Male,College,Shirleyburgh,ChatGPT,1.8,Learning,No Change,High
+206,25,Male,School,West Kevinton,Copilot,2.5,Homework,No Change,Low
+191,21,Female,School,Port Elizabethfurt,ChatGPT,2.3,Writing,Slight Decline,Low
+-45,16,Male,School,West Austinburgh,Gemini,5.0,Learning,Slight Decline,High
+-11,23,Female,School,Port Devin,Gemini,5.6,Homework,No Change,High
+-1,22,Male,College,Butlerfurt,Grammarly,5.6,Research,Slight Decline,Low
+6,20,Female,College,Ramosport,Gemini,2.2,Coding,No Change,High
+-36,21,Male,College,South Tarachester,Grammarly,5.3,Learning,Improved,High
+-52,25,Female,University,Navarroville,Gemini,0.8,Learning,Improved,Low
+116,23,Female,College,South Debraville,Gemini,4.7,Learning,Improved,Low
+2,17,Male,University,Lake Sara,Gemini,1.2,Writing,Improved,High
+66,22,Male,University,Whiteburgh,Gemini,0.5,Writing,Slight Decline,Low
+27,23,Male,University,North Michael,Gemini,2.7,Coding,Slight Decline,High
+18,19,Male,College,Stanleyburgh,Gemini,1.0,Learning,Slight Decline,High
+-11,18,Male,College,Port Kylefort,ChatGPT,0.8,Coding,Improved,Low
+30,22,Male,College,Taylorfort,ChatGPT,4.6,Coding,Improved,High
+2,17,Female,College,Paulbury,ChatGPT,0.8,Homework,Slight Decline,Low
+16,19,Male,College,Fitzgeraldburgh,ChatGPT,0.5,Learning,Improved,High
+3,24,Male,School,Amandaton,Gemini,3.5,Writing,No Change,Low
+90,17,Male,College,Debrahaven,Gemini,6.0,Writing,No Change,Medium
+-42,25,Female,University,Lake Sharon,Gemini,1.4,Writing,Slight Decline,Low
+48,25,Female,School,New Louis,ChatGPT,0.8,Research,No Change,Medium
+96,25,Female,University,Jamesport,ChatGPT,5.5,Research,Improved,High
+50,21,Male,College,Adrianaberg,Copilot,0.9,Writing,Slight Decline,High
+-40,24,Female,College,Lake Mistyberg,Notion AI,3.6,Coding,Slight Decline,Low
+103,25,Male,College,West Cathyview,Gemini,6.0,Writing,Slight Decline,Medium
+141,17,Male,College,Zacharyborough,Notion AI,0.9,Writing,Improved,High
+40,15,Male,College,Frankborough,Gemini,1.7,Writing,Slight Decline,Medium
+29,25,Male,College,Wardhaven,ChatGPT,4.5,Learning,No Change,High
+96,23,Male,University,Rhondahaven,ChatGPT,0.5,Writing,Slight Decline,Medium
+3,23,Male,College,West Elizabeth,Grammarly,4.2,Coding,No Change,Low
+-27,25,Male,College,East Ericstad,ChatGPT,1.7,Writing,No Change,Medium
+140,24,Female,University,Lake Stephanie,Grammarly,4.9,Research,Slight Decline,Low
+-21,16,Male,College,Port Benjaminstad,ChatGPT,1.2,Learning,Slight Decline,Medium
+95,25,Male,College,Brookshaven,Gemini,3.2,Learning,Slight Decline,High
+37,25,Female,School,Debbieport,Copilot,2.7,Writing,Slight Decline,Low
+-43,25,Male,School,Lake Andrewchester,Grammarly,2.6,Coding,Improved,High
+36,22,Male,College,Lake Michael,Copilot,0.9,Coding,Improved,High
+-8,24,Male,University,Port Kristina,ChatGPT,1.9,Research,Improved,Medium
+12,25,Female,College,North Shannonside,ChatGPT,0.5,Writing,Improved,Medium
+30,17,Female,College,Lake Alan,Grammarly,0.5,Learning,Slight Decline,Medium
+-16,25,Female,College,Martinezbury,Gemini,4.3,Writing,Slight Decline,High
+96,25,Female,School,Lake Scottville,ChatGPT,2.0,Coding,Improved,High
+24,19,Female,University,Bennettbury,Copilot,2.8,Writing,Slight Decline,High
+-34,25,Male,University,West Jessica,ChatGPT,1.1,Homework,Improved,Medium
+116,25,Male,University,Vancehaven,Gemini,1.7,Writing,No Change,High
+26,22,Male,College,West Christychester,Copilot,0.6,Research,No Change,Low
+-44,21,Female,College,South Sarah,ChatGPT,0.6,Writing,Slight Decline,High
+172,24,Male,University,Keithfurt,Copilot,1.3,Research,No Change,Low
+-22,20,Female,College,Brittanystad,Copilot,1.0,Writing,Improved,Medium
+36,24,Male,University,Micheleport,Copilot,0.8,Writing,No Change,Low
+93,25,Female,University,East Zachary,ChatGPT,6.0,Learning,Slight Decline,High
+34,23,Male,School,Marshland,Grammarly,2.8,Coding,Improved,High
+-46,25,Female,College,Carterton,Gemini,4.6,Research,Slight Decline,High
+-33,25,Male,College,East Christopher,Gemini,2.0,Writing,Improved,High
+-43,23,Male,University,Starkland,Copilot,0.5,Coding,Improved,Medium
+-9,21,Female,College,New Barbara,Copilot,0.6,Writing,No Change,High
+98,25,Male,School,New Timothy,Notion AI,0.5,Learning,No Change,Medium
+67,23,Male,University,Medinafurt,Gemini,3.8,Research,No Change,Low
+88,20,Female,College,Lake Michaelbury,ChatGPT,2.4,Writing,Slight Decline,Low
+-12,16,Male,College,North Laura,Gemini,1.5,Research,No Change,Medium
+-36,24,Male,College,East Kimberly,Gemini,3.9,Writing,No Change,High
+49,22,Male,School,North Christopherberg,Gemini,0.6,Research,Improved,Medium
+-56,22,Female,School,Collinsborough,Grammarly,3.4,Coding,No Change,Medium
+-29,25,Male,University,South Melissa,Gemini,2.0,Research,No Change,Low
+25,19,Female,University,Atkinsshire,Copilot,1.2,Writing,Improved,High
+179,15,Female,University,Woodsmouth,ChatGPT,1.2,Learning,Improved,Medium
+41,23,Male,University,Mooreport,Gemini,3.4,Research,Slight Decline,Medium
+-48,25,Male,College,Foleyshire,ChatGPT,0.5,Learning,Slight Decline,Low
+-50,22,Male,University,Nathanielshire,ChatGPT,5.7,Research,No Change,Medium
+27,21,Male,University,Josephton,Gemini,0.6,Writing,Improved,High
+106,24,Male,College,Lake Kevinshire,Copilot,2.0,Writing,No Change,Low
+-34,21,Male,School,Thomasfurt,Copilot,4.2,Learning,Slight Decline,High
+-17,24,Male,College,Jermaineview,ChatGPT,0.5,Coding,Slight Decline,Low
+-9,25,Female,College,Obrienshire,ChatGPT,5.0,Learning,Improved,Low
+2,25,Male,University,Port Robert,ChatGPT,4.5,Research,No Change,Low
+42,23,Female,College,South Tamaramouth,ChatGPT,3.5,Learning,Improved,Low
+-46,25,Female,College,New Jeffrey,Gemini,1.2,Writing,No Change,Low
+-9,24,Male,School,Lake Elizabethside,Gemini,5.6,Coding,Improved,High
+127,19,Male,College,East Candice,ChatGPT,4.4,Learning,Improved,High
+17,20,Female,College,Lisahaven,Gemini,4.6,Writing,Improved,High
+-19,25,Female,College,Toddstad,Copilot,3.5,Research,No Change,High
+37,21,Male,School,Mitchellberg,Gemini,4.7,Writing,Improved,Medium
+-42,25,Female,School,West Paul,ChatGPT,3.9,Research,No Change,Low
+33,25,Male,College,Reevesland,Gemini,0.6,Learning,Improved,Medium
+35,25,Female,College,North Dennis,Gemini,0.5,Coding,Slight Decline,Low
+42,24,Male,School,East Richardmouth,Copilot,0.5,Learning,No Change,Medium
+40,18,Female,University,South Eric,ChatGPT,4.3,Research,Improved,High
+-9,25,Male,University,Thompsonmouth,ChatGPT,1.8,Research,Improved,Low
+7,25,Female,College,Anthonyborough,Grammarly,0.8,Homework,Improved,High
+36,18,Female,College,Michaelville,Gemini,2.5,Learning,Slight Decline,Low
+-47,25,Male,School,Christopherbury,Copilot,2.1,Writing,No Change,Medium
+66,22,Male,School,North Zachary,ChatGPT,1.3,Writing,No Change,Low
+1,19,Female,University,North Jessicaville,Notion AI,3.4,Coding,No Change,High
+4,25,Male,College,Lukefurt,ChatGPT,0.5,Homework,No Change,High
+-29,25,Male,College,New Claire,ChatGPT,0.5,Research,No Change,Medium
+56,24,Female,University,Toddville,Notion AI,1.4,Coding,No Change,High
+2,24,Female,University,Ashleyland,Copilot,0.5,Homework,No Change,High
+239,21,Female,University,Dariushaven,Copilot,1.9,Homework,Slight Decline,Low
+10,18,Female,College,South Heather,Gemini,0.5,Writing,No Change,High
+10,25,Male,University,Williamschester,ChatGPT,4.6,Learning,Improved,Medium
+9,20,Male,College,Orrborough,Grammarly,5.8,Writing,Slight Decline,Medium
+266,25,Male,University,East Brian,ChatGPT,1.2,Coding,Slight Decline,High
+87,24,Male,School,Chaseland,Copilot,1.9,Writing,Improved,Medium
+-11,25,Female,College,Martinezfort,Copilot,2.1,Writing,Improved,High
+255,18,Female,University,East Olivia,Copilot,2.8,Learning,Improved,Medium
+141,17,Male,University,Tracyton,ChatGPT,3.4,Coding,Slight Decline,High
+-16,19,Female,School,North Stephanieborough,Gemini,3.8,Writing,No Change,Medium
+68,21,Male,University,Shelbyhaven,Copilot,1.3,Writing,No Change,Low
+9,23,Female,College,Barrystad,Gemini,3.0,Learning,Slight Decline,High
+35,20,Female,University,Mariahaven,Copilot,0.5,Learning,Slight Decline,High
+20,24,Male,College,New Holly,Copilot,6.0,Writing,Improved,Low
+121,15,Male,School,Jenniferview,Gemini,5.0,Research,No Change,High
+66,23,Female,University,Guerraville,ChatGPT,0.5,Learning,Slight Decline,High
+-43,25,Male,University,Timothyton,Copilot,5.3,Homework,Improved,High
+-23,24,Female,University,Lake Alexanderfurt,ChatGPT,1.1,Writing,No Change,Medium
+213,18,Female,University,New Paul,Gemini,0.5,Learning,Improved,High
+0,21,Female,University,Tonyton,Gemini,2.8,Learning,Slight Decline,Low
+3,22,Male,School,Westville,Grammarly,5.2,Coding,No Change,High
+-6,21,Male,School,North Kimberlyberg,ChatGPT,0.5,Research,No Change,High
+-14,24,Male,College,Leehaven,Gemini,3.6,Writing,Slight Decline,Medium
+-17,25,Male,School,Danielleland,Gemini,2.7,Coding,Improved,Low
+-20,21,Female,University,Dominiqueburgh,Gemini,2.2,Homework,No Change,High
+2,22,Female,School,Alexanderville,ChatGPT,1.3,Research,Slight Decline,High
+12,24,Male,College,South Susan,Gemini,2.2,Research,No Change,High
+101,24,Female,School,Lake Julia,Copilot,2.8,Coding,No Change,Low
+282,23,Male,University,South Christy,ChatGPT,1.8,Writing,No Change,Medium
+-22,25,Male,College,West Marcus,Gemini,3.9,Writing,Slight Decline,High
+218,23,Male,School,Gregoryland,Gemini,0.6,Homework,Improved,Low
+123,19,Female,University,Lake Gary,Copilot,2.3,Research,Improved,Medium
+30,21,Female,School,Kellyton,Gemini,1.2,Coding,Improved,Medium
+88,25,Male,College,New Christinatown,ChatGPT,2.7,Writing,No Change,Low
+-59,25,Male,University,North Allen,Gemini,2.9,Writing,No Change,Medium
+37,22,Male,University,Eduardotown,Gemini,5.2,Learning,Improved,Low
+56,16,Female,College,East Jasonmouth,Notion AI,1.5,Learning,Improved,Low
+9,22,Male,School,Sarastad,Gemini,3.6,Learning,Slight Decline,High
+21,25,Male,College,West Valerie,Gemini,0.6,Writing,Slight Decline,Medium
+19,17,Male,University,East Brittanyfort,Gemini,5.0,Research,Slight Decline,Low
+-11,16,Female,University,Mejiaborough,Copilot,6.0,Learning,Slight Decline,Low
+30,24,Male,School,East Amy,Gemini,0.5,Coding,No Change,High
+21,24,Female,School,Tylerville,Gemini,0.5,Learning,Slight Decline,High
+34,18,Male,School,North Brandonland,ChatGPT,0.6,Writing,Improved,High
+-38,24,Female,College,South Joannville,Copilot,5.5,Coding,No Change,Medium
+-11,25,Female,School,Mcmillantown,Grammarly,2.6,Coding,No Change,Medium
+-6,19,Male,College,North Rebecca,Grammarly,2.3,Research,No Change,Low
+65,24,Female,School,Dwayneshire,Gemini,2.9,Homework,Improved,High
+-55,25,Male,University,Richardtown,Gemini,4.4,Writing,No Change,Low
+-51,22,Male,School,Phillipsfort,Copilot,0.8,Learning,No Change,Medium
+-9,18,Male,University,South Christinachester,ChatGPT,0.5,Learning,Slight Decline,Low
+39,25,Female,College,Port Ericchester,Copilot,2.4,Homework,No Change,Medium
+58,25,Female,College,Christineville,Copilot,0.5,Writing,Slight Decline,Medium
+-52,25,Female,School,Bartonfurt,ChatGPT,5.1,Writing,No Change,Low
+-23,23,Female,University,Morenoview,Copilot,2.3,Learning,No Change,High
+75,25,Male,School,Jacquelineshire,ChatGPT,0.5,Writing,Slight Decline,Low
+197,20,Male,University,Lake Craig,ChatGPT,1.3,Coding,Slight Decline,Medium
+-13,21,Male,College,Monroeland,Gemini,0.9,Writing,No Change,High
+-46,18,Female,School,Port Joseview,Grammarly,1.1,Writing,Improved,High
+-15,25,Female,College,West Sarah,ChatGPT,2.0,Coding,No Change,Medium
+27,23,Male,University,New Colinchester,ChatGPT,6.0,Research,Improved,Medium
+79,17,Female,University,East Peter,Gemini,3.5,Learning,Slight Decline,Low
+65,23,Female,University,Lake Kathy,Copilot,2.1,Coding,Improved,Medium
+79,25,Female,University,Wrightview,Notion AI,0.5,Learning,Improved,High
+31,22,Male,University,Michaelbury,Copilot,1.1,Coding,No Change,Medium
+15,25,Female,School,West Tracy,Gemini,3.1,Learning,No Change,High
+23,17,Female,College,Port Davidland,Notion AI,6.0,Writing,Improved,Low
+270,23,Male,University,East Erin,ChatGPT,2.6,Learning,Slight Decline,Medium
+9,17,Male,College,Port Valerie,Copilot,1.6,Coding,Improved,Low
+-47,16,Male,University,Port Marcus,Gemini,0.5,Writing,Slight Decline,Low
+28,25,Male,College,Evansside,ChatGPT,1.3,Research,Slight Decline,High
+-42,19,Male,College,Katherinemouth,Gemini,0.5,Coding,Slight Decline,High
+-23,25,Male,College,Daviston,Gemini,5.7,Coding,No Change,High
+57,24,Female,School,South Christopher,Gemini,0.5,Learning,Slight Decline,High
+80,19,Female,University,Guzmanview,ChatGPT,4.2,Coding,Improved,Medium
+58,22,Female,University,Brownstad,Copilot,6.0,Learning,Improved,Low
+-60,16,Male,College,Williamsmouth,ChatGPT,0.5,Writing,Slight Decline,High
+35,15,Female,University,Erictown,Copilot,1.6,Writing,Improved,Medium
+-53,24,Female,School,Williamsville,Gemini,1.4,Research,Slight Decline,Medium
+-27,25,Male,College,West Jeffrey,ChatGPT,3.5,Coding,Improved,High
+-27,25,Male,School,Theodoreport,Gemini,1.0,Writing,No Change,High
+11,22,Male,College,East Michelle,Gemini,3.7,Learning,Slight Decline,Low
+50,22,Female,University,North Susanbury,Grammarly,1.6,Learning,No Change,High
+-36,17,Female,University,Rhondafort,Notion AI,6.0,Research,No Change,Low
+23,23,Male,College,Herrington,ChatGPT,1.2,Coding,Improved,Medium
+88,25,Female,College,Port Devinport,ChatGPT,0.5,Research,No Change,Medium
+175,25,Male,College,East Nicole,Gemini,4.2,Research,Improved,Medium
+-61,25,Male,University,New Robertport,Copilot,0.5,Coding,Improved,High
+158,25,Female,School,East Christopherberg,Grammarly,5.4,Learning,Improved,Low
+110,21,Male,School,Hartmanside,ChatGPT,0.5,Coding,No Change,Medium
+84,18,Male,University,North Heidifurt,ChatGPT,4.8,Learning,Slight Decline,High
+250,17,Female,College,West Michael,Notion AI,0.5,Learning,Improved,High
+3,25,Male,University,Lake Kimberlyfort,Gemini,0.5,Learning,No Change,High
+115,21,Female,University,Wrightborough,ChatGPT,1.9,Learning,Slight Decline,High
+41,16,Female,School,Berrychester,ChatGPT,2.4,Homework,Slight Decline,High
+2,21,Female,School,North Nicoleville,Grammarly,3.7,Learning,Improved,High
+108,19,Male,University,South Angela,Gemini,0.5,Learning,Improved,High
+117,24,Female,University,New Heatherchester,ChatGPT,4.5,Research,Slight Decline,Low
+5,19,Female,School,New Carl,Gemini,0.5,Research,No Change,High
+20,22,Female,University,Nancymouth,ChatGPT,3.0,Learning,Improved,High
+25,25,Male,College,Gavinborough,Gemini,4.5,Research,No Change,Low
+46,24,Male,College,Maryside,ChatGPT,1.9,Learning,No Change,High
+15,23,Male,College,Bushborough,Gemini,5.5,Learning,Improved,High
+226,17,Male,College,West Donnastad,ChatGPT,0.8,Learning,No Change,High
+24,24,Female,School,Amyburgh,Notion AI,4.3,Writing,Slight Decline,Medium
+85,25,Male,College,Spencermouth,Copilot,6.0,Writing,Slight Decline,Medium
+-23,25,Male,University,Lake Shannon,Copilot,0.6,Learning,Slight Decline,High
+20,25,Female,College,East Cody,Gemini,5.9,Research,No Change,High
+-13,17,Male,College,North Keithmouth,Copilot,0.7,Writing,No Change,High
+89,25,Male,School,West Robertstad,ChatGPT,0.5,Research,Improved,Medium
+15,25,Male,School,Myersfort,Copilot,3.1,Writing,Improved,Medium
+-40,19,Female,College,Rodgersview,Gemini,0.8,Learning,Improved,Low
+305,21,Female,University,Alexismouth,ChatGPT,2.4,Homework,Slight Decline,High
+-10,20,Female,School,Lake Melissaborough,Grammarly,1.5,Learning,No Change,Low
+39,25,Female,College,New Timothyport,Copilot,0.5,Learning,No Change,High
+79,25,Male,College,Port Natasha,Gemini,2.5,Writing,Slight Decline,Low
+24,20,Male,School,Kiddberg,Gemini,2.9,Writing,No Change,Medium
+186,18,Male,University,Lake Amandaport,Copilot,0.7,Coding,Improved,High
+-3,21,Female,University,Lake Henryhaven,Gemini,2.4,Coding,No Change,Low
+46,25,Male,College,North Christopherton,Gemini,4.0,Research,Improved,Low
+-48,18,Female,University,Lake Sheryl,Gemini,0.5,Research,No Change,Medium
+67,17,Female,College,Clarkhaven,Gemini,2.1,Coding,Slight Decline,High
+3,18,Female,College,Carlhaven,Gemini,4.0,Writing,Slight Decline,High
+-55,22,Female,University,South Brandiburgh,Grammarly,1.7,Homework,Improved,Medium
+-17,23,Female,School,Nelsonmouth,Notion AI,0.5,Writing,Improved,High
+-7,22,Male,University,Bobbyfort,ChatGPT,2.2,Learning,Improved,High
+36,15,Male,College,Port Craigshire,Copilot,2.3,Learning,No Change,High
+84,18,Male,University,Jesseton,ChatGPT,0.5,Coding,Slight Decline,Medium
+52,18,Female,School,Morganside,Notion AI,2.1,Coding,No Change,High
+-12,23,Female,University,South Steven,ChatGPT,1.4,Coding,Improved,Medium
+124,19,Male,School,East Derekfort,Notion AI,3.8,Coding,No Change,Low
+-38,24,Male,University,North Mark,Gemini,1.7,Learning,Improved,Medium
+30,25,Male,College,East Daniel,Gemini,5.1,Writing,Improved,High
+118,19,Male,School,North Tammymouth,ChatGPT,5.1,Coding,No Change,Low
+35,20,Male,University,Hansonside,Gemini,3.8,Coding,Improved,Low
+-9,16,Male,University,New Alanchester,Notion AI,6.0,Coding,Improved,High
+263,22,Male,University,East Lisaland,Copilot,4.6,Coding,No Change,High
+-27,25,Male,School,New James,Gemini,3.2,Writing,Improved,Low
+-11,21,Female,University,Davidshire,Copilot,4.8,Coding,Slight Decline,Low
+65,25,Male,College,Lake Brittany,Gemini,3.1,Homework,Improved,High
+27,25,Male,University,Garciaberg,Gemini,1.7,Coding,Improved,High
+42,25,Female,College,Petersonhaven,ChatGPT,6.0,Research,Slight Decline,Low
+-56,25,Female,University,Lake Christopherport,Copilot,2.3,Coding,No Change,High
+245,23,Female,School,Alyssastad,Copilot,1.6,Writing,Slight Decline,High
+-53,25,Male,University,West Brittany,Copilot,2.4,Coding,Improved,High
+90,20,Male,School,West Troyshire,Copilot,1.4,Coding,No Change,High
+28,18,Male,University,West Chelseaborough,ChatGPT,4.7,Learning,Improved,Low
+9,25,Female,University,East Jake,Gemini,0.6,Writing,No Change,High
+-32,16,Male,School,Port Jacob,Copilot,0.5,Writing,No Change,Low
+171,25,Female,College,Lake Paulaberg,ChatGPT,5.8,Writing,Slight Decline,Low
+13,24,Female,College,Brownview,ChatGPT,0.5,Learning,Improved,Low
+-27,24,Male,University,East Kendrachester,Copilot,3.8,Coding,No Change,High
+-61,25,Male,University,North Connie,ChatGPT,4.8,Writing,Improved,Low
+5,23,Female,University,Nicholasburgh,Gemini,0.5,Writing,Improved,High
+41,24,Male,College,Danielton,Copilot,0.7,Homework,Slight Decline,Low
+-28,21,Female,School,West Leefort,Copilot,6.0,Learning,No Change,Medium
+35,25,Female,College,Hernandezview,Gemini,1.2,Research,Slight Decline,Low
+-46,20,Male,College,Phillipsfort,Copilot,4.0,Writing,Improved,High
+-20,22,Male,School,East Richard,ChatGPT,2.4,Learning,No Change,High
+141,25,Male,College,Langton,Notion AI,6.0,Writing,Improved,Medium
+-54,25,Male,School,Lake Johnfort,ChatGPT,1.8,Coding,Slight Decline,Medium
+-58,23,Female,College,Willisstad,Gemini,1.6,Homework,No Change,High
+64,22,Male,School,New Jeremyland,Copilot,1.6,Writing,Slight Decline,Low
+-40,25,Male,School,Jenniferbury,Copilot,6.0,Coding,Improved,High
+-44,19,Male,School,Port Markmouth,Gemini,1.9,Coding,Slight Decline,Low
+-28,21,Female,University,Kimberlyberg,Copilot,1.6,Learning,Slight Decline,Low
+-8,17,Male,College,South Amber,ChatGPT,5.0,Writing,No Change,High
+4,23,Female,School,West Rodneyfort,ChatGPT,3.5,Writing,Improved,Medium
+11,25,Male,College,Cameronhaven,Grammarly,3.6,Writing,No Change,Low
+16,21,Female,School,Johntown,Gemini,5.6,Coding,No Change,Medium
+14,20,Male,University,Huntland,Copilot,5.8,Coding,Improved,High
+203,21,Male,College,Harrisside,Notion AI,1.9,Research,Improved,Low
+15,21,Female,College,Port Lorishire,Gemini,1.5,Learning,Improved,High
+221,25,Male,University,Port Tonyatown,Gemini,5.7,Coding,Slight Decline,Low
+29,23,Female,University,Alexanderland,Copilot,0.9,Learning,Slight Decline,High
+194,24,Male,College,South Raymondberg,Copilot,3.3,Homework,Improved,Medium
+-61,25,Male,University,Freemanport,Gemini,0.9,Coding,Improved,Medium
+-46,21,Male,College,New Mark,Copilot,5.2,Coding,No Change,High
+49,21,Male,School,North Amymouth,Gemini,4.3,Coding,Improved,Low
+-32,24,Male,School,Lake Nicholasfurt,Gemini,1.4,Coding,No Change,Low
+84,25,Male,University,Garciamouth,ChatGPT,2.3,Coding,No Change,High
+52,16,Female,College,Burkeport,Gemini,4.9,Homework,Improved,Low
+95,24,Female,University,Evansport,Grammarly,0.5,Research,Improved,High
+45,25,Male,University,East Rebeccaview,Copilot,5.2,Coding,No Change,High
+97,19,Female,College,Amyfort,Copilot,0.5,Learning,Slight Decline,Medium
+111,20,Female,University,North Lindsey,Gemini,0.5,Learning,Slight Decline,High
+107,25,Male,University,Thomasside,Gemini,3.5,Coding,Slight Decline,Medium
+41,17,Male,College,Bishoptown,Copilot,0.5,Coding,Slight Decline,High
+27,24,Male,College,South Jeremy,Copilot,4.0,Research,Slight Decline,Medium
+-48,25,Male,University,Aliciafort,ChatGPT,0.5,Learning,No Change,High
+-9,23,Female,School,Reynoldsmouth,Notion AI,2.3,Coding,Improved,High
+-12,22,Male,College,Beanville,Gemini,1.1,Writing,Improved,Low
+57,25,Female,College,New Christinaton,Copilot,2.3,Coding,Slight Decline,Low
+10,25,Female,University,Edwardfurt,Gemini,4.5,Coding,Slight Decline,Low
+-13,18,Male,University,West Leslieville,Grammarly,2.1,Research,No Change,High
+-12,20,Female,College,Jacksonton,Copilot,3.0,Research,Improved,Low
+-10,18,Female,University,South Lisa,Grammarly,1.8,Coding,Slight Decline,Low
+118,23,Female,University,Lake Jeffrey,Notion AI,6.0,Learning,No Change,Low
+30,25,Female,College,New Tyler,Gemini,4.1,Coding,Slight Decline,High
+-19,24,Female,School,Mcclainmouth,ChatGPT,1.2,Coding,No Change,Low
+208,25,Female,School,Lisaside,ChatGPT,1.4,Learning,No Change,High
+-26,25,Male,College,Port Danielville,ChatGPT,0.5,Writing,No Change,Low
+128,25,Male,School,Port Angelatown,Gemini,4.4,Coding,Improved,High
+113,22,Female,School,Port Joseph,Copilot,2.8,Learning,No Change,Low
+46,17,Male,College,South Charles,ChatGPT,5.3,Writing,Improved,Low
+219,16,Female,School,Davisbury,ChatGPT,1.5,Research,Slight Decline,Low
+-43,22,Male,College,Alvaradoville,Copilot,2.7,Writing,No Change,Low
+58,17,Male,School,Smithtown,Copilot,1.0,Research,No Change,High
+43,18,Female,School,Hickshaven,Gemini,1.1,Learning,Slight Decline,High
+22,22,Male,College,Delacruzborough,Copilot,1.1,Research,Improved,High
+86,21,Male,College,Lake James,Notion AI,1.3,Learning,No Change,Medium
+-56,21,Male,School,New Susan,Gemini,1.0,Learning,No Change,Medium
+59,21,Female,College,Selenashire,ChatGPT,1.2,Research,Improved,High
+80,24,Male,University,Jonesland,Gemini,0.5,Learning,Improved,Low
+-50,18,Male,University,Owenburgh,ChatGPT,5.7,Learning,Slight Decline,Low
+-23,25,Female,University,New Gregoryborough,Gemini,0.6,Coding,Improved,Medium
+188,22,Male,College,Lake Michaelfort,Gemini,2.2,Writing,Slight Decline,High
+88,23,Male,College,Reynoldsmouth,Copilot,0.5,Homework,Improved,Medium
+30,25,Male,University,West Crystalstad,ChatGPT,5.4,Writing,No Change,High
+212,21,Male,College,North Madelinefurt,Copilot,4.6,Coding,No Change,High
+-49,19,Male,University,Beardtown,Copilot,1.4,Writing,Improved,High
+56,24,Female,School,North Patrick,Gemini,1.8,Research,Slight Decline,Low
+62,24,Female,College,Mooreshire,Gemini,5.3,Research,Improved,Low
+100,24,Female,School,South Rachel,Gemini,3.3,Homework,Slight Decline,Low
+151,22,Male,School,Danaborough,ChatGPT,4.6,Learning,No Change,Medium
+-54,20,Female,College,Penningtonfort,Gemini,4.9,Coding,Improved,High
+-6,19,Female,College,North Geoffrey,Copilot,1.9,Writing,Improved,High
+-36,19,Male,University,Simsview,ChatGPT,6.0,Writing,Slight Decline,Low
+-33,17,Female,School,Port Andrewside,Gemini,0.5,Writing,Improved,Low
+71,16,Male,College,Lynchland,Gemini,1.4,Research,No Change,Low
+-24,19,Male,University,North Matthewborough,Gemini,3.6,Coding,No Change,Low
+72,23,Male,School,Jonesborough,Copilot,0.5,Coding,Slight Decline,Medium
+-20,19,Male,College,Lake Kaylastad,Copilot,4.9,Research,Slight Decline,High
+114,22,Male,University,Kathleenborough,Copilot,1.6,Writing,Improved,High
+50,22,Female,University,South Dustin,ChatGPT,1.3,Writing,No Change,Low
+-37,19,Male,College,Marshallborough,ChatGPT,0.5,Learning,Improved,Medium
+-29,25,Male,College,Pattersonberg,ChatGPT,3.0,Learning,Slight Decline,High
+-1,25,Female,College,North Jenniferland,Copilot,6.0,Coding,Improved,Low
+39,23,Male,School,East John,Gemini,2.1,Writing,No Change,Low
+-17,25,Male,School,Shelbyhaven,Gemini,2.8,Learning,No Change,High
+114,22,Male,School,Kirkchester,Grammarly,0.5,Coding,Slight Decline,Medium
+50,20,Male,College,New Lori,ChatGPT,3.4,Homework,No Change,Low
+35,25,Female,School,West Justinside,Gemini,0.5,Coding,No Change,High
+-17,22,Female,School,Amyfort,Grammarly,0.5,Writing,No Change,Medium
+-3,19,Female,University,Murphyborough,Gemini,5.2,Coding,Improved,High
+-46,18,Male,School,Garciaton,Copilot,2.1,Writing,No Change,High
+58,22,Female,University,Suttonburgh,Grammarly,3.0,Learning,No Change,Low
+24,24,Female,University,New Jennifermouth,ChatGPT,4.1,Learning,Slight Decline,Low
+211,22,Male,College,Hammondbury,Copilot,3.6,Coding,Slight Decline,High
+64,24,Female,School,North Vanessa,Grammarly,2.3,Coding,No Change,Medium
+-51,19,Female,School,East Charles,Grammarly,4.0,Writing,Improved,Low
+20,17,Male,University,Samanthaland,ChatGPT,0.5,Writing,Improved,High
+-44,20,Female,College,Port Samantha,Gemini,6.0,Homework,Improved,Medium
+19,25,Female,School,East Tinaburgh,Grammarly,1.4,Writing,Slight Decline,Medium
+144,17,Male,School,West Thomas,ChatGPT,3.6,Learning,Improved,Medium
+35,18,Female,School,North Marioville,Gemini,3.3,Writing,No Change,High
+-27,22,Female,College,Brettmouth,Gemini,1.8,Learning,Slight Decline,High
+123,18,Female,College,Justinberg,ChatGPT,0.5,Writing,Improved,High
+12,24,Male,College,North Teresaside,Copilot,0.5,Coding,Slight Decline,High
+119,17,Female,University,Pinedaborough,Gemini,2.8,Writing,Improved,Low
+92,24,Male,School,Gloriaside,ChatGPT,3.3,Coding,No Change,High
+25,16,Female,College,Martinstad,ChatGPT,0.5,Coding,Improved,Low
+-23,24,Male,College,New Russell,Gemini,2.1,Writing,Improved,Medium
+132,25,Female,School,Josephton,Gemini,5.4,Coding,Improved,High
+223,22,Female,School,Mendozafort,ChatGPT,0.6,Coding,Improved,Medium
+33,23,Female,School,Johnstown,Gemini,1.9,Learning,Improved,High
+40,21,Male,School,Ellisland,Copilot,0.5,Research,Improved,Low
+217,24,Male,College,South Jessicaside,Gemini,1.1,Writing,Improved,High
+-31,21,Female,College,East Max,Copilot,1.0,Research,No Change,High
+-14,22,Male,University,West Robertfort,Grammarly,3.4,Learning,Slight Decline,High
+86,25,Female,College,New Davidburgh,Gemini,3.4,Homework,Slight Decline,High
+62,24,Male,College,West Tracy,Gemini,4.2,Coding,No Change,Medium
+18,22,Male,College,Port Marymouth,Gemini,1.7,Writing,Improved,Low
+248,25,Male,College,Lake Saraview,Grammarly,4.8,Writing,Improved,Low
+-57,24,Male,College,West Christopherburgh,Gemini,1.9,Learning,Slight Decline,Medium
+20,24,Female,School,New Amanda,Copilot,1.1,Writing,Slight Decline,High
+-27,25,Male,School,Bowenport,Copilot,3.5,Homework,No Change,Medium
