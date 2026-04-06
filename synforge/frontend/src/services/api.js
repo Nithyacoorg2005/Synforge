@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Set this to your local FastAPI URL or your production URL later
-const API_BASE_URL = 'http://localhost:8000';
+const API_BASE_URL = 'const API_URL = process.env.REACT_APP_API_URL || "https://synforge.onrender.com"';
 
 const apiClient = axios.create({
   baseURL: API_BASE_URL,
