@@ -6,10 +6,8 @@ import {
 } from 'lucide-react';
 import { uploadDataset } from '../services/api';
 
-/**
- * 1. StatusBadge Component
- * Contextualizes the production readiness based on privacy risk.
- */
+const API_BASE_URL = process.env.REACT_APP_API_URL || "https://synforge.onrender.com";
+
 const StatusBadge = ({ risk }) => {
     const isLow = risk < 0.3;
     const isMed = risk >= 0.3 && risk < 0.7;
