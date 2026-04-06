@@ -211,7 +211,7 @@ const SynForgeDashboard = () => {
                     </div>
                     
                     <div className="text-[10px] text-slate-600 text-center uppercase tracking-[0.4em] py-6 border-t border-slate-900/50">
-                        Certified under Differential Privacy Budget ε: {epsilon.toFixed(1)} // Alpha-Signal Validation
+                       Certified under Differential Privacy Budget ε: {epsilon.toFixed(1)} | Alpha-Signal Validation
                     </div>
                 </div>
             )}
