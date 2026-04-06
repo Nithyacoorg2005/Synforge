@@ -1,41 +1,69 @@
 import pandas as pd
 import numpy as np
 import os
+import warnings
 from sdv.metadata import SingleTableMetadata
 from sdv.single_table import CTGANSynthesizer
+
+# Silence the SDV deprecation noise for a cleaner terminal
+warnings.filterwarnings("ignore", category=FutureWarning)
+warnings.filterwarnings("ignore", category=UserWarning)
 
 class SynForgeGenerator:
     def __init__(self, metadata=None):
         self.metadata = metadata if metadata else SingleTableMetadata()
         self.model = None
 
-    def train(self, df: pd.DataFrame, epochs=15, enforce_privacy=True, epsilon=0.5):
+    def _get_optimized_params(self, n_rows: int):
+        """
+        DYNAMIC TUNING LOGIC: 
+        Adjusts the 'Privacy-Utility Frontier' based on sample density.
+        """
+        if n_rows < 1000:
+            # Small Data (e.g., Fertility, German Credit)
+            # High risk of memorization -> Low Epochs, Tiny Batch
+            return {"epochs": 15, "batch_size": 20, "lr": 1e-4}
+        elif n_rows < 10000:
+            # Mid Data (e.g., Bank, Smartphone Addiction)
+            # Balance patterns and privacy -> Med Epochs, Med Batch
+            return {"epochs": 25, "batch_size": 500, "lr": 2e-4}
+        else:
+            # Big Data (e.g., Student Life, Census)
+            # High variance -> More Epochs, Large Batch to generalize
+            return {"epochs": 35, "batch_size": 2000, "lr": 2e-4}
+
+    def train(self, df: pd.DataFrame, enforce_privacy=True, epsilon=0.5):
         """
         ADVERSARIAL REGULARIZATION: 
-        Forcing under-fitting to ensure the GAN learns group distributions 
+        Forcing generalization to ensure the GAN learns group distributions 
         instead of individual row identities.
         """
         if not self.metadata.columns:
             self.metadata.detect_from_dataframe(df)
             
+        n_rows = len(df)
+        params = self._get_optimized_params(n_rows)
+        
+        print(f"[SynForge] Dataset detected: {n_rows} rows.")
         print(f"[SynForge] Initializing Synthesis Engine...")
 
-        # If privacy is enforced, we override everything with 'Safe-Mode' params
         if enforce_privacy:
-            print(f"[SynForge] Training with Aggressive Privacy Regularization...")
+            print(f"[SynForge] Mode: Aggressive Privacy Regularization")
+            print(f"[SynForge] Params: Epochs={params['epochs']}, Batch={params['batch_size']}")
+            
             self.model = CTGANSynthesizer(
                 self.metadata,
-                epochs=25,               # Force 'Fuzzy' learning
-                batch_size=2000,          # Average 4000 rows per gradient
-                generator_lr=5e-5,        # Slow, stable convergence
-                discriminator_lr=5e-5,    # Prevent 'Over-critiquing'
+                epochs=params['epochs'],
+                batch_size=params['batch_size'],
+                generator_lr=params['lr'],
+                discriminator_lr=params['lr'],
                 verbose=True
             )
         else:
-            print(f"[SynForge] Training in Standard Mode...")
+            print(f"[SynForge] Mode: Standard Optimization")
             self.model = CTGANSynthesizer(
                 self.metadata,
-                epochs=epochs,
+                epochs=35, # Default fallback
                 verbose=True
             )
 
@@ -46,7 +74,7 @@ class SynForgeGenerator:
         if not self.model:
             raise ValueError("Model must be trained or loaded before generation.")
         
-        print(f"[SynForge] Sampling {num_rows} records from distributions...")
+        print(f"[SynForge] Sampling {num_rows} records from latent distributions...")
         return self.model.sample(num_rows=num_rows)
 
     def save_model(self, path):
