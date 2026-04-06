@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import { 
-    Upload, Activity, Download, Settings, 
-    FileText, ShieldAlert, ShieldCheck 
+import {
+    Upload, Activity, Download, Settings,
+    FileText, ShieldAlert, ShieldCheck
 } from 'lucide-react';
 import { uploadDataset } from '../services/api';
 
@@ -13,13 +13,12 @@ import { uploadDataset } from '../services/api';
 const StatusBadge = ({ risk }) => {
     const isLow = risk < 0.3;
     const isMed = risk >= 0.3 && risk < 0.7;
-    
+
     return (
-        <div className={`flex items-center gap-2 text-[10px] px-3 py-1 rounded-full border shadow-sm transition-all ${
-            isLow ? 'bg-emerald-900/20 text-emerald-400 border-emerald-800/50' : 
-            isMed ? 'bg-amber-900/20 text-amber-400 border-amber-800/50' : 
-            'bg-rose-900/20 text-rose-400 border-rose-800/50'
-        }`}>
+        <div className={`flex items-center gap-2 text-[10px] px-3 py-1 rounded-full border shadow-sm transition-all ${isLow ? 'bg-emerald-900/20 text-emerald-400 border-emerald-800/50' :
+                isMed ? 'bg-amber-900/20 text-amber-400 border-amber-800/50' :
+                    'bg-rose-900/20 text-rose-400 border-rose-800/50'
+            }`}>
             {isLow ? <ShieldCheck size={12} /> : <ShieldAlert size={12} />}
             <span className="font-bold tracking-widest uppercase text-[9px]">
                 {isLow ? 'Production Ready' : isMed ? 'Internal Use Only' : 'High Leakage Risk'}
@@ -46,7 +45,7 @@ const SynForgeDashboard = () => {
     const [jobId, setJobId] = useState(null);
     const [status, setStatus] = useState('idle');
     const [metrics, setMetrics] = useState(null);
-    const [epsilon, setEpsilon] = useState(0.5); 
+    const [epsilon, setEpsilon] = useState(0.5);
 
     const handleUpload = async () => {
         if (!file) return;
@@ -58,7 +57,7 @@ const SynForgeDashboard = () => {
 
         setStatus('processing');
         try {
-            const response = await uploadDataset(file, epsilon); 
+            const response = await uploadDataset(file, epsilon);
             setJobId(response.job_id);
         } catch (error) {
             console.error("Upload failed", error);
@@ -72,16 +71,16 @@ const SynForgeDashboard = () => {
         if (jobId && status === 'processing') {
             const interval = setInterval(async () => {
                 try {
-                    const res = await axios.get(`http://localhost:8000/status/${jobId}`);
+                    const res = await axios.get(`${API_BASE_URL}/status/${jobId}`);
                     if (res.data.status === 'completed') {
                         setStatus('completed');
                         setMetrics(res.data);
                         clearInterval(interval);
                     }
-                } catch (err) {
-                    console.error("Polling error", err);
+                } catch (error) {
+                    console.error("Polling Error:", error);
                 }
-            }, 3000); 
+            }, 3000);
             return () => clearInterval(interval);
         }
     }, [jobId, status]);
@@ -108,7 +107,7 @@ const SynForgeDashboard = () => {
                             <Settings size={20} className="animate-pulse" />
                             <h2 className="text-xs font-black uppercase tracking-[0.3em]">Privacy Configuration</h2>
                         </div>
-                        
+
                         <label className="text-xs text-slate-400 flex justify-between mb-2 uppercase tracking-tighter font-bold">
                             <span>Differential Privacy Budget (ε)</span>
                             <span className="font-bold text-blue-400 text-sm bg-blue-400/10 px-2 py-0.5 rounded italic">
@@ -184,11 +183,11 @@ const SynForgeDashboard = () => {
 
                         <MetricCard
                             title="Utility Retention"
-                            value={metrics.tstr_results?.tstr_score 
-                                ? `${(metrics.tstr_results.tstr_score * 100).toFixed(1)}%` 
+                            value={metrics.tstr_results?.tstr_score
+                                ? `${(metrics.tstr_results.tstr_score * 100).toFixed(1)}%`
                                 : "N/A"}
-                            sub={`Utility Gap: ${metrics.tstr_results?.utility_gap 
-                                ? (metrics.tstr_results.utility_gap * 100).toFixed(1) 
+                            sub={`Utility Gap: ${metrics.tstr_results?.utility_gap
+                                ? (metrics.tstr_results.utility_gap * 100).toFixed(1)
                                 : "0"}%`}
                             color="text-indigo-400"
                         />
@@ -209,9 +208,9 @@ const SynForgeDashboard = () => {
                             </a>
                         </div>
                     </div>
-                    
+
                     <div className="text-[10px] text-slate-600 text-center uppercase tracking-[0.4em] py-6 border-t border-slate-900/50">
-                       Certified under Differential Privacy Budget ε: {epsilon.toFixed(1)} | Alpha-Signal Validation
+                        Certified under Differential Privacy Budget ε: {epsilon.toFixed(1)} | Alpha-Signal Validation
                     </div>
                 </div>
             )}
